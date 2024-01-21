@@ -35,12 +35,12 @@ const App = () => {
   }
 
   return (
-   
+    <div>
       <section id="task-form">
         <TaskInput onAddTask={addTaskHandler} />
       </section>
       <section id="tasks">{content}</section>
-   
+    </div>
   );
 };
 
